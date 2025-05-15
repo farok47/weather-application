@@ -4,7 +4,7 @@ function Search({search,setsearch,handlesearch}) {
   return (
     <div className='search-engine'>
         <input type="text"
-        placeholder='enter the citt name'
+        placeholder='enter the city name'
         value={search}
         onChange={e=>setsearch(e.target.value)} />
         <button onClick={handlesearch}>search</button>
